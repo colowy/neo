@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ep">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Acceder.css">
+        <link rel="shortcut icon" href="./img/favicontoro.ico" type="image/x-icon">
+        <title>Login</title>
+        <!--mandamos a llamar tuentro css -->
+    </head>
+    
+    <body>
+    <div class="bi">
+        <a class="nombre" href="index.html">Inicio</a>
+    </div>
+    
+    <!--mandamos a llamar tuentro script de carga -->
+    <script src="script-carga.js"></script>
+    
+    <!--creamos nuestro contenedor para el formulario-->
+    <div class="container">
+        <h2>Inicio de sesiòn</h2>
+        
+        <!--crear formulario-->
+        <form id="loginForm">
+            <label for="username">Usuario</label>
+            <br>
+            <div>
+                <input type="text" id="username" required placeholder=" Ingresa Usuario">
+                <br>
+            </div>
+            <br>
+            
+            <label for="password">Contraseña</label>
+            <br>
+            <div>
+                <input type="password" id="password" required placeholder=" Ingresa Contraseña">
+                <br>
+                
+            </div>
+            <br>
+            <button type="submit">Acceder</button>
+        </form>
+        <P id="message"></P>
+    </div>
+    
+    
+    <!--Mandamos a llamar nuestro script de validacion de Acceso-->
+    <script src="script.js"></script>
+    
+</body>
+</html>

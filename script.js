@@ -24,7 +24,7 @@ loginForm.addEventListener("submit", function(event){
             message.style.color="red"
         }else{
             loginForm.style.display="none"
-            message.innerHTML="Has agotado tus intentos... El acceso a sido BLOQUEADO"
+            message.innerHTML="As agotado los intentos tu acceso fue Bloqueado"
             message.style.color="red"
         }
     }

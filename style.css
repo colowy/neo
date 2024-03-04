@@ -12,16 +12,17 @@ body::-webkit-scrollbar{
 
 /*Fondo de pagina*/
 header {
-  background-image: url("img/pexels-pixabay-373543.jpg");
+  background-image: url("img/imagen-fondo.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   height: 1520px;
+  
 }
 @media screen and (max-width: 400px){
   header {
-    background-image: url("img/pexels-pixabay-373543.jpg");
+    background-image: url("img/imagen-fondo.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

@@ -12,7 +12,7 @@ body::-webkit-scrollbar{
 
 /*Fondo de pagina*/
 header {
-  background-image: url("img/image.jpg");
+  background-image: url("img/fondo-inicio.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -77,11 +77,11 @@ header {
     width: 300px;
     height: 320px;
     border: 1px solid #00000052;
-    background-color: rgba(0, 0, 0, 0.652);
+    background-color: rgba(0, 0, 0, 0.618);
     border-radius: 15px;
     margin: auto;
     margin-top: 50px;  
-    
+    box-shadow: 1px 1px 40px rgb(255, 255, 255);
   }
   .profile-img {
     margin-top: -315px;
@@ -306,11 +306,11 @@ h4 {
 }
 
 #x1x{
-  filter: drop-shadow(1px 1px 9px rgb(245, 0, 0));
+  filter: drop-shadow(1px 5px 2px rgb(0, 0, 0));
 }
 #x2x {
   margin: 10px;
-  filter: drop-shadow(1px 1px 9px rgb(245, 0, 0));
+  filter: drop-shadow(1px 5px 2px rgb(0, 0, 0));
 }
 @media screen and (max-width: 600px){
   .herconteiner{

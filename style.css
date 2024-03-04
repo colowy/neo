@@ -17,7 +17,7 @@ header {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  height: 1220px;
+  height: 1520px;
 }
 @media screen and (max-width: 400px){
   header {
@@ -95,6 +95,7 @@ header {
     color: #ffffff;
     font-weight: 600;
     margin-top: 3px;
+    text-shadow: 1px 2px 5px #ffffff;
   }
   .square-text-2 {
     color: #01ff80;

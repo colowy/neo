@@ -22,14 +22,15 @@ body{
      text-align: center;
      border-radius: 20px;
      background-color:  rgba(0, 0, 0, 0.758);
-    margin-top: 200px;
+     margin-top: 200px;
+     border: solid 2px rgb(255, 255, 255);
 }
     
 h2 {
     color: rgb(1, 255, 128);
-    font-size: 30px;
+    font-size: 39px;
     margin-top: 3px;
-    margin-bottom: 15px;
+    margin-bottom: 15px;;
 }    
 
 input {
@@ -42,8 +43,9 @@ input {
 }
 
 button {
-    background-color: rgb(92, 207, 68);
-    color: aliceblue;
+    background-color: rgb(43, 255, 0);;
+    border: solid 2px rgb(0, 0, 0);
+    color: rgb(83, 81, 81);;
     font-size: 15px;
     padding-left: 15px;
     padding-right: 15px;
@@ -53,14 +55,14 @@ button {
 }
 
 button:hover {
-    background-color:  rgb(43, 255, 0);
-    color: black;
+    background-color: rgb(43, 255, 0);
+    color: rgb(35, 35, 35);
     font-weight: 600;
 }
 
 form label {
     color: #ffffff;
-    margin-top: 10px
+    margin-top: 10px;
 }
 
 .bi {
